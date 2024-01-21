@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Page Visit Tracker",
+    "version": "1.0",
+    "description": "Tracks page visits and sends API request to a local server.",
+    "permissions": [
+      "webNavigation",
+      "http://localhost:8080/"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
